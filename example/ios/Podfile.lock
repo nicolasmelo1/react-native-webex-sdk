@@ -284,6 +284,10 @@ PODS:
   - React-jsinspector (0.69.3)
   - React-logger (0.69.3):
     - glog
+  - react-native-webex-sdk (1.0.0):
+    - React
+    - WebexBroadcastExtensionKit (~> 3.5)
+    - WebexSDK (~> 3.5)
   - React-perflogger (0.69.3)
   - React-RCTActionSheet (0.69.3):
     - React-Core/RCTActionSheetHeaders (= 0.69.3)
@@ -351,6 +355,8 @@ PODS:
     - React-logger (= 0.69.3)
     - React-perflogger (= 0.69.3)
   - SocketRocket (0.6.0)
+  - WebexBroadcastExtensionKit (3.5.0)
+  - WebexSDK (3.5.0)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -398,6 +404,7 @@ DEPENDENCIES:
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
+  - react-native-webex-sdk (from `../../react-native-webex-sdk.podspec`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
@@ -428,6 +435,8 @@ SPEC REPOS:
     - libevent
     - OpenSSL-Universal
     - SocketRocket
+    - WebexBroadcastExtensionKit
+    - WebexSDK
     - YogaKit
 
 EXTERNAL SOURCES:
@@ -469,6 +478,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
   React-logger:
     :path: "../node_modules/react-native/ReactCommon/logger"
+  react-native-webex-sdk:
+    :podspec: "../../react-native-webex-sdk.podspec"
   React-perflogger:
     :path: "../node_modules/react-native/ReactCommon/reactperflogger"
   React-RCTActionSheet:
@@ -529,6 +540,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: 1842ca163b160aeb224d2c65b2a60c393b273c67
   React-jsinspector: bb2605f98aada5d81f3494690da3ef3b4ff3b716
   React-logger: 23a50ef4c18bf9adbb51e2c979318e6b3a2e44a1
+  react-native-webex-sdk: 2cbafc80c5265b52d14888ae6cc2fa7018347288
   React-perflogger: 39d2ba8cbcac54d1bb1d9a980dab348e96aef467
   React-RCTActionSheet: b1ad907a2c8f8e4d037148ca507b7f2d6ab1c66d
   React-RCTAnimation: 914a9ba46fb6e7376f7709c7ce825d53b47ca2ee
@@ -542,9 +554,11 @@ SPEC CHECKSUMS:
   React-runtimeexecutor: 607eb048e22a16388c908ee1f6644200e8d1e19b
   ReactCommon: af7636436b382db7cde4583bbd642f0978e6e3ed
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
+  WebexBroadcastExtensionKit: f332808cf8d09294985506fa50a73296520a3a41
+  WebexSDK: 8bae025aefeff059974978985d99edd7fe5ea327
   Yoga: 44c64131616253fa83366295acdbce3d14926041
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: 36981bc2d321a6b4955763fd79267d16da5f31e0
+PODFILE CHECKSUM: 771d7c846967dd5370be49752798da48acf06c35
 
 COCOAPODS: 1.11.3

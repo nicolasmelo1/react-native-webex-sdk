@@ -27,4 +27,3 @@ if (process.cwd() !== root || args.length) {
 }
 
 process.exitCode = result.status;
-

@@ -5,9 +5,8 @@ platform :ios, '13'
 
 target 'example' do
   config = use_native_modules!
-  pod 'Yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
 
-  #pod 'react-native-webex-sdk', :podspec => '../../react-native-webex-sdk.podspec'
+  pod 'react-native-webex-sdk', :podspec => '../../react-native-webex-sdk.podspec'
   
   use_react_native!(
     :path => config[:reactNativePath],
@@ -46,9 +45,9 @@ target 'example' do
       aggregate_target.user_project.save
     end
 
-    # quiet non-module warnings - only interested in fbsdk-next warnings
+    # quiet non-module warnings - only interested in webex-sdk warnings
     installer.pods_project.targets.each do |target|
-      if !target.name.include? "react-native-fbsdk-next"
+      if !target.name.include? "react-native-webex-sdk"
         target.build_configurations.each do |config|
           config.build_settings["GCC_WARN_INHIBIT_ALL_WARNINGS"] = "YES"
         end

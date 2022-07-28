@@ -13,9 +13,10 @@
 		0A1942C32890E72100690D49 /* wbxaecodec.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1942BC2890E68100690D49 /* wbxaecodec.framework */; };
 		0A1942C42890E72300690D49 /* mediastores_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1942BD2890E68100690D49 /* mediastores_ios.framework */; };
 		0A1942C62890E75900690D49 /* WebexBroadcastExtensionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1942C52890E75900690D49 /* WebexBroadcastExtensionKit.framework */; };
-		0AEBD3382891E28F008A01E9 /* RNWebexManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBD3322891D846008A01E9 /* RNWebexManager.m */; };
-		0AEBD33A2891E294008A01E9 /* RNCallEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBD3222891D72D008A01E9 /* RNCallEventEmitter.m */; };
-		0AEBD33B2891E295008A01E9 /* RNCallManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBD3262891D768008A01E9 /* RNCallManager.m */; };
+		0AC658CC28931937004B40FC /* RNWebexManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBD3322891D846008A01E9 /* RNWebexManager.m */; };
+		0AC658CE2893193B004B40FC /* RNCallViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBD32D2891D7DC008A01E9 /* RNCallViewManager.m */; };
+		0AC658D328931948004B40FC /* RNCallEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBD3222891D72D008A01E9 /* RNCallEventEmitter.m */; };
+		0AC658D52893194E004B40FC /* RNCallManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBD3262891D768008A01E9 /* RNCallManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -209,9 +210,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AEBD3382891E28F008A01E9 /* RNWebexManager.m in Sources */,
-				0AEBD33B2891E295008A01E9 /* RNCallManager.m in Sources */,
-				0AEBD33A2891E294008A01E9 /* RNCallEventEmitter.m in Sources */,
+				0AC658CC28931937004B40FC /* RNWebexManager.m in Sources */,
+				0AC658CE2893193B004B40FC /* RNCallViewManager.m in Sources */,
+				0AC658D328931948004B40FC /* RNCallEventEmitter.m in Sources */,
+				0AC658D52893194E004B40FC /* RNCallManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +257,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = x86_64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -315,6 +318,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = x86_64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
