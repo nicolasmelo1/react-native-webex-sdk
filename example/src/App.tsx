@@ -1,12 +1,15 @@
 import React, { useEffect } from 'react'
-import RNModuleTemplateModule, { Counter } from 'react-native-module-template'
+import { Text } from 'react-native'
+import WebexSDKModule from 'react-native-webex-sdk'
 
 const App = () => {
   useEffect(() => {
-    console.log(RNModuleTemplateModule)
+    console.log(WebexSDKModule.count)
   })
 
-  return <Counter />
+  return <Text>
+    Hello World
+  </Text>
 }
 
 export default App

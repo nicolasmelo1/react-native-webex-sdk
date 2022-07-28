@@ -5,14 +5,16 @@
   "scripts": {
     "android": "react-native run-android",
     "compile": "tsc -p .",
-    "ios": "react-native run-ios",
+    "ios": "NODE_OPTIONS=--openssl-legacy-provider react-native run-ios",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "pods": "pod-install --quiet",
+    "n-version": "node -v"
   },
   "dependencies": {
-    "react": "^17.0.2",
-    "react-native": "^0.67.1"
+    "react": "*",
+    "react-native": "*"
   },
   "devDependencies": {
     "@babel/core": "^7.16.12",

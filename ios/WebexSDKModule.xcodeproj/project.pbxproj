@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A1942C02890E71900690D49 /* util_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1942B92890E68100690D49 /* util_ios.framework */; };
+		0A1942C12890E71B00690D49 /* wbxaudioengine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1942BA2890E68100690D49 /* wbxaudioengine.framework */; };
+		0A1942C22890E71F00690D49 /* WebexSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1942BB2890E68100690D49 /* WebexSDK.framework */; };
+		0A1942C32890E72100690D49 /* wbxaecodec.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1942BC2890E68100690D49 /* wbxaecodec.framework */; };
+		0A1942C42890E72300690D49 /* mediastores_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1942BD2890E68100690D49 /* mediastores_ios.framework */; };
+		0A1942C62890E75900690D49 /* WebexBroadcastExtensionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1942C52890E75900690D49 /* WebexBroadcastExtensionKit.framework */; };
+		0AEBD3382891E28F008A01E9 /* RNWebexManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBD3322891D846008A01E9 /* RNWebexManager.m */; };
+		0AEBD33A2891E294008A01E9 /* RNCallEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBD3222891D72D008A01E9 /* RNCallEventEmitter.m */; };
+		0AEBD33B2891E295008A01E9 /* RNCallManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBD3262891D768008A01E9 /* RNCallManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA0EFF5E236CC8FB00069FA8 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A1942B92890E68100690D49 /* util_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = util_ios.framework; sourceTree = "<group>"; };
+		0A1942BA2890E68100690D49 /* wbxaudioengine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = wbxaudioengine.framework; sourceTree = "<group>"; };
+		0A1942BB2890E68100690D49 /* WebexSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebexSDK.framework; sourceTree = "<group>"; };
+		0A1942BC2890E68100690D49 /* wbxaecodec.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = wbxaecodec.framework; sourceTree = "<group>"; };
+		0A1942BD2890E68100690D49 /* mediastores_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mediastores_ios.framework; sourceTree = "<group>"; };
+		0A1942C52890E75900690D49 /* WebexBroadcastExtensionKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebexBroadcastExtensionKit.framework; path = ../../WebexBroadcastExtensionKit/Frameworks/WebexBroadcastExtensionKit.framework; sourceTree = "<group>"; };
+		0A7BF5012890BD100023FD9B /* WebexSDKModule-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebexSDKModule-Bridging-Header.h"; sourceTree = "<group>"; };
+		0AEBD31A2891D63D008A01E9 /* Json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Json.swift; path = Utils/Json.swift; sourceTree = "<group>"; };
+		0AEBD31C2891D657008A01E9 /* ViewUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewUtils.swift; path = Utils/ViewUtils.swift; sourceTree = "<group>"; };
+		0AEBD31E2891D667008A01E9 /* EventEmitter.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; name = EventEmitter.swift; path = Utils/EventEmitter.swift; sourceTree = "<group>"; tabWidth = 4; };
+		0AEBD3202891D6A9008A01E9 /* RNCallEventEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RNCallEventEmitter.swift; path = "Call Manager/RNCallEventEmitter.swift"; sourceTree = "<group>"; };
+		0AEBD3222891D72D008A01E9 /* RNCallEventEmitter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RNCallEventEmitter.m; path = "Call Manager/RNCallEventEmitter.m"; sourceTree = "<group>"; };
+		0AEBD3242891D749008A01E9 /* RNCallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RNCallManager.swift; path = "Call Manager/RNCallManager.swift"; sourceTree = "<group>"; };
+		0AEBD3262891D768008A01E9 /* RNCallManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RNCallManager.m; path = "Call Manager/RNCallManager.m"; sourceTree = "<group>"; };
+		0AEBD32B2891D7D3008A01E9 /* RNCallViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RNCallViewManager.swift; path = CallView/RNCallViewManager.swift; sourceTree = "<group>"; };
+		0AEBD32D2891D7DC008A01E9 /* RNCallViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RNCallViewManager.m; path = CallView/RNCallViewManager.m; sourceTree = "<group>"; };
+		0AEBD3302891D824008A01E9 /* RNWebexManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RNWebexManager.swift; path = WebexManager/RNWebexManager.swift; sourceTree = "<group>"; };
+		0AEBD3322891D846008A01E9 /* RNWebexManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RNWebexManager.m; path = WebexManager/RNWebexManager.m; sourceTree = "<group>"; };
+		FA0EFF60236CC8FB00069FA8 /* libWebexSDKModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWebexSDKModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA0EFF5D236CC8FB00069FA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1942C02890E71900690D49 /* util_ios.framework in Frameworks */,
+				0A1942C12890E71B00690D49 /* wbxaudioengine.framework in Frameworks */,
+				0A1942C32890E72100690D49 /* wbxaecodec.framework in Frameworks */,
+				0A1942C62890E75900690D49 /* WebexBroadcastExtensionKit.framework in Frameworks */,
+				0A1942C42890E72300690D49 /* mediastores_ios.framework in Frameworks */,
+				0A1942C22890E71F00690D49 /* WebexSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A1942B82890E68100690D49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A1942B92890E68100690D49 /* util_ios.framework */,
+				0A1942BA2890E68100690D49 /* wbxaudioengine.framework */,
+				0A1942BB2890E68100690D49 /* WebexSDK.framework */,
+				0A1942BC2890E68100690D49 /* wbxaecodec.framework */,
+				0A1942BD2890E68100690D49 /* mediastores_ios.framework */,
+				0A1942C52890E75900690D49 /* WebexBroadcastExtensionKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A1942C82890E80200690D49 /* Call Manager */ = {
+			isa = PBXGroup;
+			children = (
+				0AEBD3202891D6A9008A01E9 /* RNCallEventEmitter.swift */,
+				0AEBD3222891D72D008A01E9 /* RNCallEventEmitter.m */,
+				0AEBD3242891D749008A01E9 /* RNCallManager.swift */,
+				0AEBD3262891D768008A01E9 /* RNCallManager.m */,
+			);
+			name = "Call Manager";
+			sourceTree = "<group>";
+		};
+		0A2A4C892890C3D30060DE21 /* WebexSDKModule */ = {
+			isa = PBXGroup;
+			children = (
+				0AEBD32F2891D816008A01E9 /* WebexManager */,
+				0AEBD3282891D786008A01E9 /* CallView */,
+				0AEBD3192891D630008A01E9 /* Utils */,
+				0A1942C82890E80200690D49 /* Call Manager */,
+			);
+			path = WebexSDKModule;
+			sourceTree = "<group>";
+		};
+		0AEBD3192891D630008A01E9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0AEBD31A2891D63D008A01E9 /* Json.swift */,
+				0AEBD31C2891D657008A01E9 /* ViewUtils.swift */,
+				0AEBD31E2891D667008A01E9 /* EventEmitter.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		0AEBD3282891D786008A01E9 /* CallView */ = {
+			isa = PBXGroup;
+			children = (
+				0AEBD32B2891D7D3008A01E9 /* RNCallViewManager.swift */,
+				0AEBD32D2891D7DC008A01E9 /* RNCallViewManager.m */,
+			);
+			name = CallView;
+			sourceTree = "<group>";
+		};
+		0AEBD32F2891D816008A01E9 /* WebexManager */ = {
+			isa = PBXGroup;
+			children = (
+				0AEBD3302891D824008A01E9 /* RNWebexManager.swift */,
+				0AEBD3322891D846008A01E9 /* RNWebexManager.m */,
+			);
+			name = WebexManager;
+			sourceTree = "<group>";
+		};
+		FA0EFF57236CC8FB00069FA8 = {
+			isa = PBXGroup;
+			children = (
+				0A2A4C892890C3D30060DE21 /* WebexSDKModule */,
+				0A7BF5012890BD100023FD9B /* WebexSDKModule-Bridging-Header.h */,
+				0A1942B82890E68100690D49 /* Frameworks */,
+				FA0EFF61236CC8FB00069FA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA0EFF61236CC8FB00069FA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA0EFF60236CC8FB00069FA8 /* libWebexSDKModule.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA0EFF5F236CC8FB00069FA8 /* WebexSDKModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0EFF69236CC8FB00069FA8 /* Build configuration list for PBXNativeTarget "WebexSDKModule" */;
+			buildPhases = (
+				FA0EFF5C236CC8FB00069FA8 /* Sources */,
+				FA0EFF5D236CC8FB00069FA8 /* Frameworks */,
+				FA0EFF5E236CC8FB00069FA8 /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebexSDKModule;
+			productName = WebexSDKModule;
+			productReference = FA0EFF60236CC8FB00069FA8 /* libWebexSDKModule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA0EFF58236CC8FB00069FA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "Nicolas Leal";
+				TargetAttributes = {
+					FA0EFF5F236CC8FB00069FA8 = {
+						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1170;
+					};
+				};
+			};
+			buildConfigurationList = FA0EFF5B236CC8FB00069FA8 /* Build configuration list for PBXProject "WebexSDKModule" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA0EFF57236CC8FB00069FA8;
+			productRefGroup = FA0EFF61236CC8FB00069FA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA0EFF5F236CC8FB00069FA8 /* WebexSDKModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA0EFF5C236CC8FB00069FA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AEBD3382891E28F008A01E9 /* RNWebexManager.m in Sources */,
+				0AEBD33B2891E295008A01E9 /* RNCallManager.m in Sources */,
+				0AEBD33A2891E294008A01E9 /* RNCallEventEmitter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA0EFF67236CC8FB00069FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "WebexSDKModule-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		FA0EFF68236CC8FB00069FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "WebexSDKModule-Bridging-Header.h";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA0EFF6A236CC8FB00069FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../example/ios/Pods/Headers/Public/React-Core",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/React-Core",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WebexSDKModule-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA0EFF6B236CC8FB00069FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../example/ios/Pods/Headers/Public/React-Core",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/React-Core",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WebexSDKModule-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA0EFF5B236CC8FB00069FA8 /* Build configuration list for PBXProject "WebexSDKModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0EFF67236CC8FB00069FA8 /* Debug */,
+				FA0EFF68236CC8FB00069FA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0EFF69236CC8FB00069FA8 /* Build configuration list for PBXNativeTarget "WebexSDKModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0EFF6A236CC8FB00069FA8 /* Debug */,
+				FA0EFF6B236CC8FB00069FA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA0EFF58236CC8FB00069FA8 /* Project object */;
+}
