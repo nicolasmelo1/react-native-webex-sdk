@@ -4,7 +4,7 @@ import WebexSDKModule from 'react-native-webex-sdk'
 
 const App = () => {
   useEffect(() => {
-    console.log(WebexSDKModule.supportedEvents)
+    console.log(WebexSDKModule)
   })
 
   return <Text>

@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A89FD17289331F000BA3A55 /* libWebexSDKModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A89FD162893313800BA3A55 /* libWebexSDKModule.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		49FF4216EBF1E780C6F61DE7 /* libPods-example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDC2FD06C14F120C0295CE0 /* libPods-example.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		FAA6DE282607FC1C0044CA6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA6DE272607FC1C0044CA6D /* AppDelegate.swift */; };
-		FAB9070E279B4A83008B1D17 /* libRNModuleTemplateModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB9070D279B4A6B008B1D17 /* libRNModuleTemplateModule.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FAB9070C279B4A6B008B1D17 /* PBXContainerItemProxy */ = {
+		0A89FD152893313800BA3A55 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FAB90708279B4A6B008B1D17 /* RNModuleTemplateModule.xcodeproj */;
+			containerPortal = FAB90708279B4A6B008B1D17 /* WebexSDKModule.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = FA0EFF60236CC8FB00069FA8;
-			remoteInfo = RNModuleTemplateModule;
+			remoteInfo = WebexSDKModule;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -35,7 +35,7 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAA6DE272607FC1C0044CA6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = example/AppDelegate.swift; sourceTree = "<group>"; };
 		FAA6DE2A2607FC480044CA6D /* example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "example-Bridging-Header.h"; path = "example/example-Bridging-Header.h"; sourceTree = "<group>"; };
-		FAB90708279B4A6B008B1D17 /* RNModuleTemplateModule.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNModuleTemplateModule.xcodeproj; path = ../../ios/RNModuleTemplateModule.xcodeproj; sourceTree = "<group>"; };
+		FAB90708279B4A6B008B1D17 /* WebexSDKModule.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WebexSDKModule.xcodeproj; path = ../../ios/WebexSDKModule.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB9070E279B4A83008B1D17 /* libRNModuleTemplateModule.a in Frameworks */,
+				0A89FD17289331F000BA3A55 /* libWebexSDKModule.a in Frameworks */,
 				49FF4216EBF1E780C6F61DE7 /* libPods-example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A89FD122893313800BA3A55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A89FD162893313800BA3A55 /* libWebexSDKModule.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* example */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,7 +83,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				FAB90708279B4A6B008B1D17 /* RNModuleTemplateModule.xcodeproj */,
+				FAB90708279B4A6B008B1D17 /* WebexSDKModule.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -109,14 +117,6 @@
 				4EBE44B7498D405BBD8F4BD8 /* Pods-example.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		FAB90709279B4A6B008B1D17 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FAB9070D279B4A6B008B1D17 /* libRNModuleTemplateModule.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,8 +170,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = FAB90709279B4A6B008B1D17 /* Products */;
-					ProjectRef = FAB90708279B4A6B008B1D17 /* RNModuleTemplateModule.xcodeproj */;
+					ProductGroup = 0A89FD122893313800BA3A55 /* Products */;
+					ProjectRef = FAB90708279B4A6B008B1D17 /* WebexSDKModule.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -182,11 +182,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		FAB9070D279B4A6B008B1D17 /* libRNModuleTemplateModule.a */ = {
+		0A89FD162893313800BA3A55 /* libWebexSDKModule.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libRNModuleTemplateModule.a;
-			remoteRef = FAB9070C279B4A6B008B1D17 /* PBXContainerItemProxy */;
+			path = libWebexSDKModule.a;
+			remoteRef = 0A89FD152893313800BA3A55 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -332,6 +332,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "example/example-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				VALIDATE_WORKSPACE = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -359,6 +360,7 @@
 				PRODUCT_NAME = example;
 				SWIFT_OBJC_BRIDGING_HEADER = "example/example-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
+				VALIDATE_WORKSPACE = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;

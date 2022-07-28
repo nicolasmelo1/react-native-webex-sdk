@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "asdasdasd",
   "homepage": "https://github.com/nicolasmelo1/react-native-webex-sdk",
-  "main": "lib/index.js",
+  "main": "src/index.tsx",
   "types": "lib/index.d.ts",
   "author": "Nicolas Leal <nicolasmelo12@gmail.com>",
   "license": "MIT",
